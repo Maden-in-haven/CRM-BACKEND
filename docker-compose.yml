@@ -19,6 +19,12 @@ services:
     container_name: profile-service
     networks:
       - webnet
+  notifications-service:
+    build:
+      context: ./NOTIFICATIONS-SERVICE  # Путь к Dockerfile для profile-service
+    container_name: notifications-service
+    networks:
+      - webnet
   nginx-proxy:
     image: nginx:latest
     container_name: nginx-proxy
@@ -32,6 +38,7 @@ services:
       - auth-service
       - admin-service
       - profile-service
+      - notifications-service
 
 networks:
   webnet:

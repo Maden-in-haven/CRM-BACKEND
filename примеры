@@ -1,0 +1,2 @@
+git submodule update --remote --merge
+git submodule add git@github.com:Maden-in-haven/NOTIFICATIONS-SERVICE.git

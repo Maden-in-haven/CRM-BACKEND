@@ -7,3 +7,6 @@
 [submodule "AUTH-SERVICE"]
 	path = AUTH-SERVICE
 	url = git@github.com:Maden-in-haven/AUTH-SERVICE.git
+[submodule "NOTIFICATIONS-SERVICE"]
+	path = NOTIFICATIONS-SERVICE
+	url = git@github.com:Maden-in-haven/NOTIFICATIONS-SERVICE.git
